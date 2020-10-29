@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.qa-photo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 220px;
+}
+
+.qa-photo-item {
+  width: 250 px;
+  height: 250px;
+  -webkit-box-shadow: -20px 35px 50px 3px rgba(0, 0, 0, 0.74);
+  -moz-box-shadow: -20px 35px 50px 3px rgba(0, 0, 0, 0.74);
+  box-shadow: -20px 35px 50px 3px rgba(0, 0, 0, 0.74);
+  margin-bottom: 50px;
+  padding-bottom: 40px;
+}
+
+.blue-item {
+  background-color: #c9daf8;
+}
+
+.green-item {
+  background-color: #d8ead2;
+}
+
+.orange-item {
+  background-color: #fff2cd;
+}
+
+.pink-item {
+  background-color: #f4cccc;
+}
+
+.purple-item {
+  background-color: #dad2e9;
+}
+
+.violet-ligth-item {
+  background-color: #ebd1dc;
+}
+
+.violet-item {
+  background-color: #d6a6be;
+}
+
+.dark-pink-item {
+  background-color: #cfaaa2;
+}
+
+.yellow-item {
+  background-color: #fed966;
+}
+
+.sub-menu {
+  display: none;
+}
+
+.sub-menu li {
+  list-style-type: none;
+}
+.main-item:focus ~ .sub-menu,
+.main-item:active ~ .sub-menu,
+.sub-menu:hover {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-item:hover {
+  text-decoration: none;
+  color: #fff;
+  background: #485d6f;
+}
+
+.sub-menu a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: #ff7058;
+}
